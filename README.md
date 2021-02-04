@@ -32,21 +32,21 @@ Cuando Maven no encuntra una dependencia en el repositorio local, empieza a busc
 * Paquete: edu.eci.cvds.patterns
 * archetypeArtifactId: maven-archetype-quickstart 
 
-*mvn archetype:generate -DgroupId=edu.eci.cvds -DartifactId=Patterns -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false* ![image](./source/1.png)
+*mvn archetype:generate -DgroupId=edu.eci.cvds -DartifactId=Patterns -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false* ![image](./Source/1.png)
 ### COMPILAR Y EJECUTAR
 **Busque cuál es el objetivo del parámetro "package" y qué otros parámetros se podrían enviar al comando mvn.** 
-Compila la aplicación de java en torno a las dependencias declaradas en el POM ![image](./source/2.png)
+Compila la aplicación de java en torno a las dependencias declaradas en el POM ![image](./Source/2.png)
 
-**Busque cómo ejecutar desde línea de comandos, un proyecto maven y verifique la salida cuando se ejecuta con la clase App.java como parámetro en "mainClass".** ![image](./source/3.png)
+**Busque cómo ejecutar desde línea de comandos, un proyecto maven y verifique la salida cuando se ejecuta con la clase App.java como parámetro en "mainClass".** ![image](./Source/3.png)
 
 **Realice el cambio en la clase App.java para crear un saludo personalizado, basado en los parámetros de entrada a la aplicación. Utilizar la primera posición del parámetro que llega al método "main" para realizar el saludo personalizado, en caso que no sea posible, se debe mantener el saludo como se encuentra actualmente:**
 
 * Buscar cómo enviar parámetros al plugin "exec".
-* Ejecutar nuevamente la clase desde línea de comandos y verificar la salida: Hello World! ![image](./source/6.png)
-* Ejecutar la clase desde línea de comandos enviando su nombre como parámetro y verificar la salida. Ej: Hello Pepito! ![image](./source/4.png)
+* Ejecutar nuevamente la clase desde línea de comandos y verificar la salida: Hello World! ![image](./Source/6.png)
+* Ejecutar la clase desde línea de comandos enviando su nombre como parámetro y verificar la salida. Ej: Hello Pepito! ![image](./Source/4.png)
 * Ejecutar la clase con su nombre y apellido como parámetro. ¿Qué sucedió? 
 * Verifique cómo enviar los parámetros de forma "compuesta" para que el saludo se realice con nombre y apellido.
-* Ejecutar nuevamente y verificar la salida en consola. Ej: Hello Pepito Perez! ![image](./source/5.png)
+* Ejecutar nuevamente y verificar la salida en consola. Ej: Hello Pepito Perez! ![image](./Source/5.png)
 ### **gitignore**
 
 Un archivo .gitignore es un archivo de texto plano que le indica a *git* que archivos o carpetas ignorar al momento de hacer el historial de modificaciones.
