@@ -47,4 +47,9 @@ Compila la aplicación de java en torno a las dependencias declaradas en el POM 
 * Ejecutar la clase con su nombre y apellido como parámetro. ¿Qué sucedió? 
 * Verifique cómo enviar los parámetros de forma "compuesta" para que el saludo se realice con nombre y apellido.
 * Ejecutar nuevamente y verificar la salida en consola. Ej: Hello Pepito Perez! ![image](./source/5.png)
-### HACER EL ESQUELETO DE LA APLICACIÓN
+### **gitignore**
+
+Un archivo .gitignore es un archivo de texto plano que le indica a *git* que archivos o carpetas ignorar al momento de hacer el historial de modificaciones.
+
+Esto permite llevar un historial mucho mas limpio y ayuda a concentrarse en los cambios realmente importantes.
+
